@@ -1,0 +1,62 @@
+html{
+    width: 70%;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #161D31;
+}
+
+
+#btn{
+    background-color: brown;
+    color: cornsilk;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+    float: left;
+    margin-left: 13px;
+}
+.icon{
+    width: 25px;
+}
+.plus{
+    width: 23px;
+  
+}
+
+.tablom{
+    background-color: rgb(230, 230, 220);
+    border-style: solid;
+    border-radius: 13px;
+    border-width: 4px;
+    
+
+}
+.datatime{
+    color: #fff;
+    background-color:#263553;
+    font-family: "Segoe UI",sans-serif;
+    width: 98%;
+    padding: 25px 10px;
+
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient( rgba(255, 255, 255, 0.1));
+}
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.poslogo{
+    width: 3%;
+    float: left;
+}
+.poscube{
+    color:cornsilk;
+    font-size: 30px;
+    float: left;
+}

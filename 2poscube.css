@@ -1,0 +1,86 @@
+html{
+    width: 80%;
+    text-align: left;
+    margin-left:300px; 
+    margin-right:10px;
+   
+    background-color: #161D31;
+}
+
+.satir{
+    width: 40%;
+    height: 30px;
+    background: white;
+}
+.tablolar{
+        background-color: rgb(230, 230, 220);
+        border-style: solid;
+        border-radius: 13px;
+        border-width: 4px;
+        margin-top: 150px;
+    
+    }
+
+.baslik{
+    margin-left:400px ;
+    font-size: 25px;
+}
+#btn{
+    background-color: brown;
+    color: cornsilk;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+    float: left;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+.icon{
+    width: 25px;
+}
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 50px;
+	height: 25px;
+	background: rgb(233, 78, 78);
+	display: block;
+	border-radius: 100px;
+	position: relative;
+    margin-left: 140px;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 22px;
+	height: 22px;
+	background: #fff;
+	border-radius: 45px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #3f9e5b;
+}
+
+input:checked + label:after {
+	left: calc(100% - 2.5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 32px;
+}
+
+
